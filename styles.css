@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #00afe9;
+  font-family: "Arvo", cursive;
+  text-shadow: 4px 0 #3b3b3b;
+
+}
+
+
+footer {
+  color: #4e4e4e;
+  font-family: sans-serif;
+}
+
+
+.pressed {
+  -webkit-filter: drop-shadow(3px 3px 6px #222);
+  filter: drop-shadow(3px 3px 6px #222);
+}
+
+#drum-conatiner{
+  width: 40%;
+  margin: 10px auto 30px;
+  position: relative;
+}
+
+#bg-image{
+  width: 100%;
+}
+
+.instrument{
+  display: block;
+  position: absolute;
+}
+
+#a{
+  top: 34%;
+  left: 1%;
+  width: 25%;
+}
+#s{
+  top: 15%;
+  left: 20%;
+  width: 23%;
+}
+#j{
+  top: 15%;
+  left: 51%;
+  width: 20%;
+}
+#k{
+  top: 37%;
+  left: 63%;
+  width: 20%;
+}
+#l{
+  top: 5%;
+  right: 1%;
+  width: 26%;
+}
+.symbols{
+  width: 100%;
+}
+#kick{
+  bottom: 2%;
+  left: 25%;
+  width: 43%;
+  border-radius: 50%;
+}
+
+@media (max-width: 1028px){
+  h1 {
+    font-size: 6.5rem;
+    color: #00afe9;
+    font-family: "Arvo", cursive;
+    text-shadow: 4px 0 #3b3b3b;
+  
+  }
+
+  #drum-conatiner{
+    width: 90%;
+    margin: 15vh auto 25vh;
+    position: relative;
+  }
+}
